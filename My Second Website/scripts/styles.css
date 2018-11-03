@@ -1,0 +1,57 @@
+ul 
+{ 
+    list-style-type: none;
+    /* background: #5d5b5b; */
+    text-align: center;
+    padding-left: 0px
+    /* margin: 100% */
+}
+
+ul li 
+{
+    background-color: skyblue;
+        /* margin: 20px; */
+    border: solid; 
+    border-color: black;
+    /* padding: 10px; */
+    padding: 10px 0;
+}
+
+ul li:hover
+{
+    background-color: lightgray;
+}
+
+a
+{
+font-family: 'Spicy Rice', cursive;
+font-variant: "small-caps";
+font-size: 1.5em;
+text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:link {
+    color: green;
+}
+
+a:hover {
+    color: red;
+}
+
+.active:hover   
+{
+    background-color: skyblue;
+}
+
+@media only screen and (min-width: 600px)
+{
+ ul li {
+     display: inline-block;
+     width: 120px;
+ }  
+}
+
